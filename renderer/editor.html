@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>The Editor</title>
+    <link rel="stylesheet" type="text/css" href="editor.css">
+    <link rel="stylesheet" type="text/css" href="../node_modules/prismjs/themes/prism.css">
+  </head>
+  <body>
+      <code id="editor"></code>
+
+    <script type="text/javascript">
+      window.addEventListener("load", function load(event){
+          window.removeEventListener("load", load, false);
+          editor.start();
+      },false);
+    </script>
+
+    <script type="text/javascript" src="../node_modules/prismjs/prism.js"></script>
+    <script type="text/javascript" src="editor.js"></script>
+  </body>
+</html>

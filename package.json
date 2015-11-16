@@ -1,0 +1,16 @@
+{
+  "name": "editor",
+  "version": "0.0.1",
+  "description": "my first electron app",
+  "main": "main.js",
+  "dependencies": {
+    "electron-prebuilt": "^0.34.3",
+    "prismjs": "^1.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andy",
+  "license": "MIT"
+}
